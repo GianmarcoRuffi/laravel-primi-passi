@@ -21,3 +21,19 @@ Route::get('/', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
+
+Route::get('/contatti', function () {
+    return view('contatti');
+})->name('contatti');
+
+Route::get('/forum', function () {
+    return view('forum');
+})->name('forum');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');
+
+
+
+

@@ -72,6 +72,9 @@
 
                 <div class="links">
                 <a href="{{route('portfolio')}}">Portfolio</a>
+                <a href="{{route('contatti')}}">Contatti</a>
+                <a href="{{route('forum')}}">Forum</a>
+                <a href="{{route('faq')}}">FAQ</a>
                 </div>
             </div>
     </body>
