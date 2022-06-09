@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+
+    $array = [
+        'lista' => 5
+    ];
+
+    return view('homepage', $array);
 })->name('homepage');
 
 
